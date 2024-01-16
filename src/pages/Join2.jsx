@@ -27,7 +27,6 @@ const LoginContent = styled.div`
   height: 100%;
   background: #fff;
   padding: 136px 118px;
-  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 `;
 
 const Title = styled.h1`
@@ -63,7 +62,7 @@ const ErrorMessageWrap = styled.div`
 const InputDelete = styled.button`
   position: absolute; /* X 버튼을 absolute로 설정 */
   right: 27%; /* 오른쪽 여백 조절 */
-  top: 50%; /* 세로 중앙 정렬을 위해 50%로 설정 */
+  top: 26px; /* 세로 중앙 정렬을 위해 50%로 설정 */
   transform: translateY(-50%);
   background: none;
   border: none;
